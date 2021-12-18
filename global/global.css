@@ -1,0 +1,80 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&family=Exo+2:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --cor-verde:#00DF5E;
+    --cor-cinza-claro:#333333;
+    --cor-cinza-escuro:#212121;
+    --cor-cinza:#828282;
+    --cor-preto:#171717;
+    --cor-escura:#212121;
+    --cor-branca:#f9f9f9;
+
+    --fonte-principal: 'DM Sans', sans-serif;
+    --fonte-segundaria: 'Exo 2', sans-serif;;
+}
+
+body{
+    background: var(--cor-preto);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px 0;
+    color: var(--cor-branca);
+}
+
+@media(max-width:991px){
+    .home{
+        padding: 20px 5%;
+    }
+}
+
+@media(max-width:768px){
+    
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .home .content{
+        margin-bottom: 40px;
+    }
+
+    .cabecalho .inner-width .navbar ul{
+        display: none;
+    }
+    
+    .home .content .botoes .btn{
+        Padding: 10px 11px 10px 11px;
+    }
+
+    .home .content .botoes .btn02{
+        Padding: 10px 11px 10px 11px;
+    }
+}
+
+@media(max-width:375px){
+    .Projetos .box-container .box{
+        flex: 0 1 260px;
+        background: var(--cor-escura);
+    }
+
+    .Projetos .box-container .box .image{
+        background: var(--cor-preto);
+        height: 130px;
+        width: 240px;
+    }
+}
+

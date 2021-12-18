@@ -1,0 +1,296 @@
+.cabecalho .inner-width{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 5%;
+}
+
+.cabecalho .inner-width .logo{
+    font-size: 26px;
+    color: var(--cor-branca);
+    font-weight: bold;
+}
+
+.cabecalho .inner-width .navbar ul{
+    display: flex;
+}
+
+.cabecalho .inner-width .navbar ul li{
+    margin: 0 20px;
+}
+
+.cabecalho .inner-width .navbar ul li a{
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--cor-branca);
+}
+
+.cabecalho .inner-width .navbar ul li a:hover{
+    color: var(--cor-verde);
+}
+
+/* home */
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 5%;
+}
+
+.home .content{
+    flex: 0 1 400px;
+}
+
+.home .imagem img{
+    height: 15rem;
+    object-fit: contain;
+}
+
+.home .content h1{
+    max-width: 280px;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cor-branca);
+}
+
+.home .content p{
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.home .content .botoes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home .content .botoes .btn{
+    display: inline-block;
+    Padding: 10px 11px 10px 11px;
+    background: var(--cor-verde);
+    font-size: 14px;
+    color: var(--cor-preto);
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.home .content .botoes .btn02{
+    display: inline-block;
+    Padding: 10px 11px 10px 11px;
+    background: transparent;
+    font-size: 14px;
+    color: var(--cor-branca);
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid var(--cor-cinza-claro);
+}
+
+/* Sobre mim */
+
+.Sobre-mim{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.Sobre-mim .texto{
+    max-width: 745px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--cor-cinza);
+    padding: 0 15px;
+    line-height: 2;
+}
+
+.Sobre-mim .box-container .contato-cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Sobre-mim .box-container .contato-cards .card{
+    flex: 0 1 200px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Sobre-mim .box-container .contato-cards .card .icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    background: var(--cor-escura);
+}
+
+.Sobre-mim .box-container .contato-cards .card .icone i{
+    color: var(--cor-verde);
+    font-size: 30px;
+}
+
+.Sobre-mim .box-container .contato-cards .card h3{
+    color: var(--cor-branca);
+    font-size: 18px;
+    margin: 19px 0;
+    font-weight: 700;
+}
+
+.Sobre-mim .box-container .contato-cards .card p{
+    color: var(--cor-cinza);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Projetos */
+
+.Projetos{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Projetos .box-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Projetos .box-container .box{
+    flex: 0 1 350px;
+    background: var(--cor-escura);
+    margin: 15px 20px;
+}
+
+.Projetos .box-container .box .image{
+    margin: 20px 25px;
+    background: var(--cor-preto);
+    height: 130px;
+    width: 300px;
+}
+
+.Projetos .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Projetos .box-container .box h3,
+.Projetos .box-container .box p{
+    margin: 15px 25px;
+}
+
+.Projetos .box-container .box h3{
+    font-size: 18px;
+    color: var(--cor-branca);
+    font-weight: 500;
+    margin: 15px 25px;
+}
+
+.Projetos .box-container .box p{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-cinza);
+    margin: 15px 25px;
+}
+
+/* Serviços */
+.Serviços{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.Serviços .box-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Serviços .box-container .servicos{
+    flex: 0 1 350px;
+    margin: 15px 20px;
+    padding: 30px;
+    background: var(--cor-cinza-claro);
+    border-bottom: 5px solid var(--cor-verde);
+}
+
+.Serviços .box-container .servicos i{
+    font-size: 35px;
+    padding: 20px 0;
+    color: var(--cor-verde);
+}
+
+.Serviços .box-container .servicos p{
+    font-size: 32px;
+    padding: 20px 0;
+    color: var(--cor-cinza);
+    max-width: 120px;
+    font-weight: 500;
+}
+
+/* Minhas-skills */
+
+.Minhas-skills{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.Minhas-skills .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Minhas-skills .box-container .row-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background: var(--cor-cinza-escuro);
+}
+
+.rodape{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 20px;
+    color: var(--cor-branca);
+    border-top: 1px solid var(--cor-cinza);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.rodape span{
+    color: var(--cor-verde);
+    font-weight: 700;
+}
+
+
+
+

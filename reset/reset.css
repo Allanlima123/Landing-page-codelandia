@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: .2s;
+    font-family: var(--fonte-principal);
+}
