@@ -51,7 +51,7 @@
     margin: 0 5px;
 }
 
-.home .content .botoes .btn02{
+.home .content .botoes .btnContato{
     display: inline-block;
     Padding: 10px 11px 10px 11px;
     background: transparent;
@@ -78,7 +78,6 @@
 .cabecalho .inner-width .hamburguer span{
    height: 4px;
    width: 35px;
-   display: block;
    position: absolute;
    border-radius: 32px;
    background: var(--cor-branca);
