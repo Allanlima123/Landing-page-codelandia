@@ -167,6 +167,7 @@
 
 .Serviços .box-container .servicos{
     flex: 0 1 350px;
+    height: 250px;
     margin: 15px 20px;
     padding: 30px;
     background: var(--cor-cinza-claro);
