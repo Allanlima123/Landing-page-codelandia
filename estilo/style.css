@@ -183,7 +183,7 @@
     font-size: 32px;
     padding: 20px 0;
     color: var(--cor-cinza);
-    max-width: 120px;
+    max-width: 50%;
     font-weight: 500;
 }
 
