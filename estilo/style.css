@@ -32,69 +32,6 @@
     color: var(--cor-verde);
 }
 
-/* home */
-
-.home{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px 5%;
-}
-
-.home .content{
-    flex: 0 1 400px;
-}
-
-.home .imagem img{
-    height: 15rem;
-    object-fit: contain;
-}
-
-.home .content h1{
-    max-width: 280px;
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--cor-branca);
-}
-
-.home .content p{
-    color: var(--cor-cinza);
-    font-weight: 500;
-    font-size: 18px;
-    margin: 20px 0;
-}
-
-.home .content .botoes{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.home .content .botoes .btn{
-    display: inline-block;
-    Padding: 10px 11px 10px 11px;
-    background: var(--cor-verde);
-    font-size: 14px;
-    color: var(--cor-preto);
-    cursor: pointer;
-    font-weight: bold;
-    margin: 0 5px;
-}
-
-.home .content .botoes .btn02{
-    display: inline-block;
-    Padding: 10px 11px 10px 11px;
-    background: transparent;
-    font-size: 14px;
-    color: var(--cor-branca);
-    cursor: pointer;
-    font-weight: bold;
-    border: 1px solid var(--cor-cinza-claro);
-}
-
 /* Sobre mim */
 
 .Sobre-mim{

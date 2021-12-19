@@ -1,0 +1,116 @@
+
+/* home */
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 5%;
+}
+
+.home .content{
+    flex: 0 1 400px;
+}
+
+.home .imagem img{
+    height: 15rem;
+    object-fit: contain;
+}
+
+.home .content h1{
+    max-width: 280px;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cor-branca);
+}
+
+.home .content p{
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.home .content .botoes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home .content .botoes .btn{
+    display: inline-block;
+    Padding: 10px 11px 10px 11px;
+    background: var(--cor-verde);
+    font-size: 14px;
+    color: var(--cor-preto);
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.home .content .botoes .btn02{
+    display: inline-block;
+    Padding: 10px 11px 10px 11px;
+    background: transparent;
+    font-size: 14px;
+    color: var(--cor-branca);
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid var(--cor-cinza-claro);
+}
+
+/* menu-hamburgue */
+
+.cabecalho .inner-width .hamburguer{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: var(--cor-cinza-escuro);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+}
+
+.cabecalho .inner-width .hamburguer span{
+   height: 4px;
+   width: 35px;
+   display: block;
+   position: absolute;
+   border-radius: 32px;
+   background: var(--cor-branca);
+   transition: .5s linear;
+}
+
+.cabecalho .inner-width .hamburguer span:nth-child(1){
+    transform: translateY(-12px);
+    width: 25px;
+    left: 5px;
+}
+
+.cabecalho .inner-width .hamburguer.active span:nth-child(1){
+    width: 35px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: .125s;
+}
+
+.cabecalho .inner-width .hamburguer span:nth-child(2){
+    transform: translateY(12px);
+    width: 15px;
+    left: 5px;
+ }
+
+ .cabecalho .inner-width .hamburguer.active span:nth-child(2){
+    width: 35px;
+    transform: translateY(0px) rotate(315deg);
+    transition-delay: .125s;
+ }
+
+ .cabecalho .inner-width .hamburguer.active span:nth-child(3){
+    transform: translateX(60px); 
+}
+
+    
