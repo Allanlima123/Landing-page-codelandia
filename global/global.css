@@ -67,6 +67,11 @@ html{
         transition: .5s linear;
     }
 
+    .cabecalho .inner-width .navbar ul.active{
+        right: 0;
+        transition: .5s linear;
+    }
+
     .cabecalho .inner-width .navbar ul li{
         margin: 15px 0;
     }
@@ -74,11 +79,6 @@ html{
     .cabecalho .inner-width .navbar ul li a{
         color: var(--cor-branca);
         font-size: 25px;
-    }
-
-    .cabecalho .inner-width .navbar ul.active{
-        right: 0;
-        transition: .5s linear;
     }
     
     .home .content .botoes .btn{
