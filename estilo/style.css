@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 5%;
+    padding: 0 5%;
+    width: 100%;
+    margin: 35px 0;
 }
 
 .cabecalho .inner-width .logo{
